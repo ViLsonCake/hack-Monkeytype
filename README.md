@@ -1,0 +1,1 @@
+Note: Bot only works in 10 words mode in English and at 125% scaling
