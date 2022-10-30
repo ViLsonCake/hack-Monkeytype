@@ -29,7 +29,7 @@ class MonkeyType:
 
 
     def make_screenshot(self):
-        time.sleep(1)
+        time.sleep(0.5)
         self.image = pyautogui.screenshot()
         self.crop_image = self.image.crop(self.cords)
         self.crop_image.save('images/cropped.png')
